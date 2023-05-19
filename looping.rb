@@ -1,5 +1,10 @@
 def happy_new_year
   # your code here
+    (10.downto(1)).each do |num|
+      puts num
+    end
+    puts "Happy New Year!"
+  end
 end
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
